@@ -38,3 +38,11 @@ pip install -e .
 ## Troubleshooting
 1. Check firewall on both machines
 2. Both machine must be on same network
+
+## Credits
+We're using [GANav-offroad](https://github.com/rayguan97/GANav-offroad) which is licensed under the Apache 2.0 license. A copy of it can be found `credits/GANav-offroad`
+
+[GANav-offroad](https://github.com/rayguan97/GANav-offroad) is heavely based on MMSegmentation, a copy of that license can be found in `credits/MMSegmentation`
+
+## License
+This project is licensed under the MIT License.
