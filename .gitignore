@@ -117,3 +117,4 @@ work_dirs/
 data
 .DS_Store
 CWT
+trained_models/rugd_group6/ganav_rugd_6.pth
