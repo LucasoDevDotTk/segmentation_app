@@ -56,10 +56,11 @@ while True:
     result = inference_segmentor(model, frame)
 
     # Convert the segmentation result to a BGR image for visualization
-    result_img = model.show_result(frame, result, out_file=None, show=False)
+    result_img = model.show_result(frame, result, out_file=None, show=False, opacity=1)
 
     # Display the original frame and the segmentation result side by side
-    cv2.imshow('Remote Video', np.hstack([frame, result_img]))
+    cv2.imshow('Remote Video INFERENCE', result_img)
+    cv2.imshow('Remote Video', frame)
 
     # Break the loop if 'q' key is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
